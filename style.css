@@ -16,7 +16,7 @@ body {
 
 /* Estilização do cabeçalho */
 h1 {
-    background-color: #692EF2;
+    background-color: #582ef2;
     color: white;
     padding: 20px;
     border-radius: 10px;
@@ -48,7 +48,7 @@ p {
 
 /* Efeito hover nos textos */
 p:hover {
-    background-color: #f1f1f1;
+    background-color: #e2dffc;
     border-radius: 5px;
 }
 
