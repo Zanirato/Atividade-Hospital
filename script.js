@@ -25,7 +25,7 @@ class Chefe extends Pessoa{
 
 class Funcionario extends Pessoa{
     apresentar () { 
-        return ` ${this.nome} e trabalha como ${this.profissao} junto ao Doutor House no hospital Princeton-Plainsboro.`;
+        return `O(a) funcionário(a) ${this.nome} trabalha como ${this.profissao} junto ao Doutor House no hospital Princeton-Plainsboro.`;
     }
 }
 
@@ -42,6 +42,8 @@ const foreman = new Funcionario("Eric Foreman", "neurologista", 25.083);
 const cameron = new Funcionario("Allison Cameron", "imunologista", 19.580);
 const chase = new Funcionario("Robert Chase", "cirurgião", 30.166);
 const thirteen = new Funcionario("Remy Hadley", "internista", 10.916);
+const taub = new Funcionario("Chris Taub", "cirurgião plástico", 18.582);
+const kutner = new Funcionario("Lawrence Kutner", "especialista em Medicina Esportiva", 15.600);
 
 
 cuddy.comandar();
@@ -53,6 +55,8 @@ foreman.apresentar();
 cameron.apresentar();
 chase.apresentar();
 thirteen.apresentar();
+taub.apresentar();
+kutner.apresentar();
 
 
 function exibir(mensagem) {
@@ -72,3 +76,5 @@ exibir(foreman.apresentar());
 exibir(cameron.apresentar());
 exibir(chase.apresentar());
 exibir(thirteen.apresentar());
+exibir(taub.apresentar());
+exibir(kutner.apresentar());
