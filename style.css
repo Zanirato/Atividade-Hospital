@@ -7,7 +7,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #BFCAF3;
+    background-image: url(img/House-MD-HD_2560x1440.jpg);
+    background-position: center center;
     color: #333;
     text-align: center;
     padding: 20px;
